@@ -62,12 +62,13 @@ header{
   color: white;
   font-size: 22px; 
   z-index: 1000;
+  border-radius: 120px;
 }
 a .fa-arrow-up{
   color: white;
 }
 .services{
-  background-image: linear-gradient(to bottom,  rgb(0, 0, 0) 5%, rgb(233, 177, 131), rgb(22, 22, 26));
+  background-image: linear-gradient(to bottom,  rgb(0, 0, 0) 5%, rgb(233, 177, 131), rgb(0, 0, 0));
   padding: 100px;
   display: flex;
   z-index: 500;
@@ -119,19 +120,7 @@ a .fa-arrow-up{
   font-weight:700;
   margin: 25px 0 12px;
   font-size: 18px;
-}/*
-.car__button{
-  display: block;
-  background: linear-gradient(to bottom, rgb(19, 18, 18) 0%, rgb(134, 128, 128) 100%);
-  border-radius: 6px;
-  text-decoration: none;
-  width: 100%;
-  color: rgb(244, 241, 247);
-  font-weight: 700;
-  text-align: center;
-  padding: 12px 0;
-  margin-top: 10px;
-}*/
+}
 .btn-neon{
   position: relative;
   display: inline-block;
@@ -938,8 +927,9 @@ h3 .palabras i {
       background-image: linear-gradient(black, rgb(233, 177, 131),rgb(139, 153, 235));
   }
   .imgeContenedor{
-    width: 100%;
+    width: 90%;
     height: auto;
+    padding-top: 265px;
   }
   .imge{
       margin: 0 auto;
@@ -972,11 +962,10 @@ h3 .palabras i {
   right: 20px;
   z-index: 500000;
 }
-.redes a, .fa-plus{
+.btn-mas .fa-arrow-up{
   display: block;
-  text-decoration: none;
-  background: #cc2b2b;
-  color: floralwhite;
+  background: #f07a2f;
+  color: rgb(0, 0, 0);
   width:55px; 
   height: 55px;
   line-height: 55px;
@@ -985,28 +974,11 @@ h3 .palabras i {
   box-shadow: 0px 1px 10px rgba(0,0,0,0.4);
   transition: all 500ms ease;
 }
-.redes a:hover{
-  background: white;
-  color:#cc2b2b;
+.btn-mas .fa-arrow-up::before{
+  color: #0f0f0f;
 }
-.redes a{
-  margin: -4px;
-  opacity: 0;
-  visibility: hidden;
-}
-#btn-mas:checked~ .redes a{
-  margin-bottom: 10px;
-  opacity: 1;
-  visibility: visible;
-}
-.fa-plus{
-  cursor: pointer;
-  background: #f44141;
-  font-size: 23px;
-}
-#btn-mas:checked ~ .btn-mas .fa-plus{
-  transform: rotate(137deg);
-  font-size: 25px;
+.btn-mas a{
+  text-decoration: none;
 }
 .bubblebanner{
   background: url(../multimedia/blob-scene-haikei.svg);
@@ -1143,7 +1115,7 @@ h3 .palabras i {
 	content: "";
 	width: 2px;
 	height: 97%;
-	background: #1b3231;
+	background: #78c297;
 	position: absolute;
 	top: 0;
 	left: calc(50% - 1px);
@@ -1182,7 +1154,7 @@ h3 .palabras i {
 
 .foto {
 	width: 40%;
-	border: 3px solid rgb(231, 171, 6);
+	border: 3px solid #78c297;
 	position: relative;
 	box-shadow: rgba(6, 28, 224, 0.2) 0px 7px 29px 0px;
   border-radius: 5px;
