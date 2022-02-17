@@ -1001,6 +1001,121 @@ h3 .palabras i {
     border-radius: 5px;
     width: 30%;
 }
+/*FOOTER GALERIA*/
+#footergaleria{
+  padding: 100px 0 20px;
+  background: black;
+  position:relative;
+}
+.tittle__texxt{
+  color: #f07a2f;
+  text-align: center;
+}
+.footergaleria__row{
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content:space-between;
+  flex-wrap: wrap;
+}
+.footergaleria__left{
+  text-align: center;
+  margin-top: 50px;
+  
+}
+.botoungaleria{
+  border: 2px solid #f07a2f;
+  padding: 10px 30px;
+  margin: auto;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 0.9em;
+  color: #fff;
+  transition: all 0.50;
+  background: #0f0f0f;
+}
+.botoungaleria:hover{
+  background: #fff;
+  color: black;
+  text-decoration: none;
+}
+.footergaleria__right, .footergaleria__left{
+  flex-basis: 45%;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+.footergaleria__right{
+  text-align:right;
+  color: whitesmoke;
+}
+.footergaleria__row h3{
+  margin: 10px 0;
+  color: whitesmoke;
+}
+.footergaleria__row p{
+  line-height: 35px;
+  color: whitesmoke;
+}
+.footergaleria__right .fa, .footergaleria__left .fa{
+  font-size: 20px;
+  color: #f07a2f;
+  margin: 10px;
+}
+.social__link{
+  text-align: center;
+}
+.social__link .fa{
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  line-height: 40px;
+  border: 1px solid white;
+  margin: 40px 5px 0;
+  color: white;
+  cursor: pointer;
+  transition: .5s;
+}
+.social__link .fa:hover{
+  background: #f07a2f;
+  color: #fff;
+  transform: translateY(-7px);
+}
+
+@media screen and (max-width:770px){
+  #footergaleria{
+    padding: 100px 0 20px;
+    background: black;
+    position:relative;
+  }
+  .footergaleria__right, .footergaleria__left{
+    flex-basis: 100%;
+    font-size: 12px;
+  }
+  .footergaleria__row h2{
+    margin: 10px 0;
+    color: whitesmoke;
+    font-size: 17px;
+    font-weight: 500;
+    text-decoration: underline;
+    padding: 10px;
+  }
+  .social__link{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .social__link .fa{
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    line-height: 40px;
+    border: 1px solid white;
+    margin: 10px 5px 0;
+    color: white;
+    cursor: pointer;
+    transition: .5s;
+  }
+}
 /******* SECTOR CARRITO *****/
 #hero {
   background-image: url(../multimedia/blob-haikei.svg);
