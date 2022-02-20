@@ -536,13 +536,11 @@ a .fa-arrow-up{
 .imge{
   width: 100%;
   margin-left: 7em;
-  
 }
 .imge img{
   width: 100%;
   height: 100%;
   object-fit: cover;
-
 }
 .imgeContenedor .imgeContenedorDos{
   width: 100%;
@@ -561,8 +559,8 @@ a .fa-arrow-up{
   width: 100%;
   object-fit: cover;
 }
-.imge .hover{
-  width: 0%;
+.imge .hover {
+  width: 100%;
   height: 100vh;
   background-color: rgb(158, 156, 168,0.4);
   position: absolute;
@@ -572,6 +570,7 @@ a .fa-arrow-up{
   justify-content: center;
   align-items: center;
   overflow: hidden;
+  font-size: 10px;
 }
 .hover h3{
   color: rgb(248, 245, 245);
@@ -640,7 +639,7 @@ a .fa-arrow-up{
 }
 .uno{
   object-fit: contain;
-}
+}/*
 .imge .hover{
   width: 0%;
   height: 30vh;
@@ -665,7 +664,7 @@ a .fa-arrow-up{
       font-family: 'Montserrat', sans-serif;
       text-decoration: underline rgb(209, 98, 24);
       
-    }
+    }*/
 }
 .text-center{
   padding: 35px;
@@ -716,7 +715,7 @@ a .fa-arrow-up{
         text-decoration: underline rgb(209, 98, 24);
         
       }
-
+  
 }
 #portfolio{
   background-image: linear-gradient(black, rgb(51, 50, 50), black);
@@ -863,8 +862,7 @@ a .fa-arrow-up{
     right: 0;
     margin: 0;
   }
-
-}
+}  
 /*BOTONN*/
 #btn-mas{
   display: none;
@@ -1007,6 +1005,9 @@ a .fa-arrow-up{
     cursor: pointer;
     transition: .5s;
   }
+}
+.uno h2{
+  visibility: hidden;
 }
 /****ERROR 404 ****/
 .body{
