@@ -1,6 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;1,200&family=Fruktur&family=Lobster+Two:ital@1&family=Montserrat:wght@300;500&family=Playfair+Display:wght@400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;1,200&family=Fruktur&family=Lobster+Two:ital@1&family=Montserrat:wght@300;500&family=Playfair+Display&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:ital,wght@0,200;0,300;1,200&family=Fruktur&family=Lobster+Two:ital@1&family=Montserrat:wght@300;500&display=swap');
+img[src*="https://cdn.000webhost.com/000webhost/logo/footer-powered-by-000webhost-white2.png"]{
+  display: none;
+}
 *,
 *::before,
 *::after {
@@ -37,7 +40,7 @@ header{
     background: rgb(233, 227, 227,0.3);
     font-size: 15px;
     margin: 10px 5px;
-   text-align: center;
+    text-align: center;
     border-radius: 5px;
 }
 .banner, .slide, .carousel-inner{
@@ -319,7 +322,7 @@ a .fa-arrow-up{
         height: 100vh;
         font-family: 'munito',sans-serif;
         padding: 0 0px;
-        font-size: 15px;
+        font-size: 12px;
       }
       .ctar{
         display: flex;
@@ -634,7 +637,7 @@ a .fa-arrow-up{
 }
 .imge img{
   width: 100%;
-  height: 50%;
+  height: 100%;
       
 }
 .uno{
@@ -1258,7 +1261,7 @@ a .fa-arrow-up{
 }
 
 .frase .palabras  {
- overflow: hidden;
+  overflow: hidden;
   height: 1.5em;
   margin-left: 0.35em;
 }
@@ -1313,6 +1316,6 @@ a .fa-arrow-up{
     padding-top: 258px;
   }
   .frase{
-    font-size: 20px;
+    font-size: 15px;
   }
 }
